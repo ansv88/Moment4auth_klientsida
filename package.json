@@ -1,0 +1,17 @@
+{
+  "name": "moment4auth_klientsida",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "Annelie Svenson",
+  "license": "ISC",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel --open chrome",
+    "build": "parcel build"
+  },
+  "description": "",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
+}

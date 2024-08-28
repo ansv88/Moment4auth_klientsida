@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DT207G - Moment 4 | Logga in</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="../js/main.js"></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav>
+        <ul>
+          <li class="current"><a href="index.html">Logga in</a></li>
+          <li><a href="register.html">Skapa konto</a></li>
+          <li><a href="myaccount.html">Mitt konto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="login-container">
+        <h1>Logga in</h1>
+        <form action="myaccount.html" method="post" id="login-form">
+          <label for="username">Användarnamn</label>
+          <input type="text" id="username" name="username" />
+
+          <label for="password">Lösenord</label>
+          <input type="password" id="password" name="password" />
+
+          <span class="error-text" id="login-error"></span>
+
+          <input type="submit" value="Logga in" />
+
+          <div class="loader" id="loading-spinner"></div>
+        </form>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <p><i>DT207G Moment 4</i> &copy; 2024 Annelie Svensson</p>
+    </footer>
+  </body>
+</html>

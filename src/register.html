@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DT207G - Moment 4 | Skapa konto</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="../js/main.js"></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav>
+        <ul>
+          <li><a href="index.html">Logga in</a></li>
+          <li class="current"><a href="register.html">Skapa konto</a></li>
+          <li><a href="myaccount.html">Mitt konto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="register-container">
+        <h1>Registrera dig</h1>
+        <span class="confirm-text"></span>
+        <form action="index.html" method="post" id="register-form">
+          <label for="username">Användarnamn</label>
+          <input type="text" id="username" name="username" />
+          <span class="error-text" id="username-error"></span>
+
+          <label for="password">Lösenord</label>
+          <input type="password" id="password" name="password" />
+          <span class="error-text" id="password-error"></span>
+
+          <label for="confirm_password">Bekräfta lösenord</label>
+          <input type="password" id="confirm_password" name="confirm_password" />
+          <span class="error-text" id="confirm_password-error"></span>
+
+          <input type="submit" value="Registrera" />
+
+          <div id="errorText"></div>
+        </form>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <p><i>DT207G Moment 4</i> &copy; 2024 Annelie Svensson</p>
+    </footer>
+  </body>
+</html>
